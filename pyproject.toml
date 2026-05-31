@@ -6,6 +6,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
 
+[project.scripts]
+intervals-icu = "intervals_icu_cli.cli:main"
+
 [project.urls]
 Repository = "https://github.com/LeonardHd/intervals-icu-cli"
 
