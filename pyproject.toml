@@ -1,6 +1,6 @@
 [project]
 name = "intervals-icu-cli"
-version = "0.0.0"
+version = "0.1.0"
 description = "Command-line interface for Intervals.icu"
 readme = "README.md"
 requires-python = ">=3.12"
