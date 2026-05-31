@@ -1,0 +1,14 @@
+[project]
+name = "intervals-icu-cli"
+version = "0.0.0"
+description = "Command-line interface for Intervals.icu"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/LeonardHd/intervals-icu-cli"
+
+[build-system]
+requires = ["uv_build>=0.11,<0.12"]
+build-backend = "uv_build"

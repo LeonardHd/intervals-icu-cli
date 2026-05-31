@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node / semantic-release
+node_modules/
+
+# Python build artifacts
+/dist/
+/build/
