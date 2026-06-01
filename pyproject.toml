@@ -4,7 +4,11 @@ version = "0.1.0"
 description = "Command-line interface for Intervals.icu"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "typer>=0.12",
+    "intervals-icu-client>=0.0.1",
+    "python-dotenv>=1.0",
+]
 
 [project.scripts]
 intervals-icu = "intervals_icu_cli.cli:main"
@@ -15,3 +19,11 @@ Repository = "https://github.com/LeonardHd/intervals-icu-cli"
 [build-system]
 requires = ["uv_build>=0.11,<0.12"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
